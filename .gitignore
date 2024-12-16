@@ -1,0 +1,13 @@
+
+node_modules/
+.env
+
+
+/frontendSC/node_modules/
+/frontendSC/.env
+/frontendSC/.vite/ 
+
+# Backend
+/backendSC/node_modules/
+/backendSC/.env
+/backendSC/.cache/
