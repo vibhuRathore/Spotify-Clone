@@ -1,10 +1,12 @@
 import { Router } from "express";
+import {protectRoute }from "../middleware/authMiddleware.js";
+import { getAllUsers } from "../controllers/userController.js";
+
+
 
 const router = Router();
 
-router.get("/" ,(req,res) => {
-    res.send("hello ")
-} )
+router.get("/" , protectRoute , getAllUsers)
 
 
 
