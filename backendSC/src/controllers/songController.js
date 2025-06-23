@@ -1,4 +1,4 @@
-import Song from '../models/songModel.js';
+import { Song }  from '../model/songModel.js';
 
 export const getAllSongs = async( req , res , next) => {
     try {
